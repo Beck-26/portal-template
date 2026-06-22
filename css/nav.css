@@ -1,8 +1,10 @@
 /* Global rules */
+
 .topnav {
     margin: auto;
-    background-color: rgb(95,95,95);
+    background-color: #0f172a;
     overflow: auto;
+    box-shadow: 0 4px 10px rgba(15, 23, 42, 0.18);
 }
 
 .topnav a {
@@ -16,15 +18,17 @@
     font-size: 16px;
 }
 
-.topnav a.hover, .active {
-    background-color: darkcyan;
+.topnav a:hover,
+.topnav .active {
+    background-color: #0f766e;
+    color: #ffffff;
 }
 
 .topnav .icon {
     display: none;
 }
 
-/* Responsive rules - apply when screen width is less than 1200px */
+/* Responsive rules */
 
 @media screen and (max-width: 1199px) {
     .topnav a:not(:first-child) {
@@ -52,7 +56,6 @@
         top: 0;
     }
 }
-
 
 /* DESKTOP */
 @media all and (min-width:1200px) {
