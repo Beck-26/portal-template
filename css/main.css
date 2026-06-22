@@ -195,9 +195,11 @@ footer {
     width: 150px;
     height: 150px;
     object-fit: cover;
+    object-position: center;
     border-radius: 10px;
     border: 2px solid var(--border);
 }
+
   
 .project-content {
     flex-grow: 1;
